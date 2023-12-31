@@ -1,0 +1,32 @@
+.container {
+  height: 100vh;
+  display: flex;
+  
+  .left {
+    width: 400px;
+    padding: 24px;
+    border-right: 1px solid #e5e5e5;
+    box-sizing: border-box;
+
+    :global{
+      .ant-upload-btn:focus {
+        outline: none;
+      }
+    }
+  }
+
+  .content {
+    flex: 1;
+    height: 100%;
+    padding: 24px;
+    overflow-y: auto;
+    box-sizing: border-box;
+  }
+}
+
+
+.mark {
+  color: #f7440e;
+  font-size: 16px;
+  font-weight: 600;
+}

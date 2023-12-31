@@ -9,6 +9,9 @@ declare namespace NodeJS {
   }
 }
 
+declare module '*.less'
+
+
 declare module '*.avif' {
   const src: string;
   export default src;
